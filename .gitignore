@@ -1,0 +1,44 @@
+# ========================
+# Angular (frontend)
+# ========================
+frontend/node_modules/
+frontend/.env
+frontend/.angular/cache/
+frontend/.vscode/
+frontend/.editorconfig
+frontend/angular.json
+frontend/package-lock.json
+frontend/package.json
+frontend/tsconfig.json
+frontend/tsconfig.app.json
+frontend/tsconfig.spec.json
+frontend/README.md
+frontend/.gitignore 
+
+# ========================
+# Spring Boot (backend)
+# ========================
+backend/target/
+backend/.env
+backend/.idea/
+backend/*.iml
+backend/.vscode/
+backend/application.properties
+backend/application.yml
+backend/.gitignore
+
+# ========================
+# PostgreSQL (database)
+# ========================
+database/db_credentials.env
+database/*.pgpass
+database/.gitignore
+
+# ========================
+# Global ignores
+# ========================
+*.log
+*.env
+*.bak
+.DS_Store
+Thumbs.db
